@@ -1,0 +1,55 @@
+<diagram program="umletino" version="15.1"><zoom_level>12</zoom_level><help_text>Space for diagram notesa</help_text><element><id>UMLUseCase</id><coordinates><x>228</x><y>264</y><w>132</w><h>132</h></coordinates><panel_attributes>SAMA App</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>276</y><w>132</w><h>108</h></coordinates><panel_attributes>valign=center
+halign=center
+Sensor Manager</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>228</x><y>480</y><w>132</w><h>108</h></coordinates><panel_attributes>valign=center
+halign=center
+Android OS</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>132</x><y>72</y><w>156</w><h>108</h></coordinates><panel_attributes>valign=bottom
+halign=center
+DailyData Database
+SQLite</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLActor</id><coordinates><x>480</x><y>276</y><w>72</w><h>132</h></coordinates><panel_attributes>User</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>324</x><y>72</y><w>156</w><h>108</h></coordinates><panel_attributes>valign=bottom
+halign=center
+User Database
+SQLite</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>144</x><y>84</y><w>36</w><h>36</h></coordinates><panel_attributes>// Text Element
+// DB Symbol
+_umletcode=
+fg='black';
+bg='#222222';
+drawArc(0,0,width,height*2/5,0,180,true) //Parameters (x, y, width, height, start, extent, open)
+bg='bg';
+drawArc(0,0,width,height*2/5,180,180,true)  //Parameters (x, y, width, height, start, extent, open)
+fg='#929292';
+bg='#222222';
+drawRectangle(0,(height+0.5)/5,width,(height)*3/5-1)  //Parameters (x, y, width, height)
+fg='black'
+drawLine(0,height/5,0,height*4/5) //Parameters (x1, y1, x2, y2)
+drawLine(width,height/5,width,height*4/5) //Parameters (x1, y1, x2, y2)
+bg='bg';
+drawArc(0,height*1/5,width,height*2/5,180,180,true)  //Parameters (x, y, width, height, start, extent, open)
+drawArc(0,height*2/5,width,height*2/5,180,180,true)  //Parameters (x, y, width, height, start, extent, open)
+bg='#222222'
+drawArc(0,height*3/5,width,height*2/5,180,180,true)  //Parameters (x, y, width, height, start, extent, open)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>336</x><y>84</y><w>36</w><h>36</h></coordinates><panel_attributes>// Text Element
+// DB Symbol
+_umletcode=
+fg='black';
+bg='#222222';
+drawArc(0,0,width,height*2/5,0,180,true) //Parameters (x, y, width, height, start, extent, open)
+bg='bg';
+drawArc(0,0,width,height*2/5,180,180,true)  //Parameters (x, y, width, height, start, extent, open)
+fg='#929292';
+bg='#222222';
+drawRectangle(0,(height+0.5)/5,width,(height)*3/5-1)  //Parameters (x, y, width, height)
+fg='black'
+drawLine(0,height/5,0,height*4/5) //Parameters (x1, y1, x2, y2)
+drawLine(width,height/5,width,height*4/5) //Parameters (x1, y1, x2, y2)
+bg='bg';
+drawArc(0,height*1/5,width,height*2/5,180,180,true)  //Parameters (x, y, width, height, start, extent, open)
+drawArc(0,height*2/5,width,height*2/5,180,180,true)  //Parameters (x, y, width, height, start, extent, open)
+bg='#222222'
+drawArc(0,height*3/5,width,height*2/5,180,180,true)  //Parameters (x, y, width, height, start, extent, open)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>168</y><w>132</w><h>120</h></coordinates><panel_attributes>lt=&lt;-
+Activity Data</panel_attributes><additional_attributes>10;10;10;40;90;40;90;80</additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>168</y><w>132</w><h>120</h></coordinates><panel_attributes>lt=&lt;-
+
+User Data</panel_attributes><additional_attributes>90;10;90;50;10;50;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>312</y><w>132</w><h>48</h></coordinates><panel_attributes>lt=&lt;-
+Get Steps</panel_attributes><additional_attributes>90;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>288</x><y>168</y><w>132</w><h>120</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;80;10;40;90;40;90;10</additional_attributes></element><element><id>Relation</id><coordinates><x>168</x><y>168</y><w>132</w><h>120</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>90;80;90;50;10;50;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>348</x><y>300</y><w>156</w><h>48</h></coordinates><panel_attributes></panel_attributes><additional_attributes>110;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>288</x><y>384</y><w>36</w><h>120</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>276</x><y>384</y><w>36</w><h>120</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element></diagram>
