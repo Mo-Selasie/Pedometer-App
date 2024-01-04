@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@mipmap/background1"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SAMA"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/baseline_directions_walk_white_24"
+            android:textColor="@color/white"
+            android:textSize="45sp" />
+
+        <EditText
+            android:id="@+id/text_userName"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:textSize="25sp"
+            android:layout_height="60dp"
+            android:hint="User Name" />
+
+        <EditText
+            android:id="@+id/text_password"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="25sp"
+            android:hint="Password"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="#8033B5E5"
+            android:textSize="30sp"
+            android:text="Log in"
+            android:id="@+id/buttonLogin"/>
+
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="25dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Register"
+                android:textStyle="bold"
+                android:textColor="#6a5acd"
+                android:layout_centerHorizontal="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:id="@+id/register"
+                android:textSize="25sp"
+
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Produly desinged by Group 2"
+        android:textSize="23sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/cardview_light_background"
+
+        />
+
+</RelativeLayout>

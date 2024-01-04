@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SAMA</string>
+    <string name="suggested_steps_format">Suggested Steps: %1$d</string>
+</resources>

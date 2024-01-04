@@ -1,0 +1,62 @@
+<!-- activity_step_count.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".user_guide_ui">
+
+    <TextView
+        android:id="@+id/textViewStepCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Step Count: 0"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewSuggestedDailyTarget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Today's Suggested Target: 0"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnUserProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewSuggestedDailyTarget"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="50dp"
+            android:text="User Profile"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/btnWalkingHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewSuggestedDailyTarget"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="50dp"
+            android:text="Walking History" />
+    </LinearLayout>
+
+</LinearLayout>

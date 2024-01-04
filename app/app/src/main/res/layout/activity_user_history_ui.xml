@@ -1,0 +1,84 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@mipmap/strong_blurred_original_background">
+
+    <!-- Child views go here -->
+    <TextView
+        android:id="@+id/textViewToday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Today: "
+        android:textSize="30sp"/>
+
+
+    <TextView
+        android:id="@+id/textViewYesterday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yesterday: "
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/textViewD2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 days ago: "
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/textViewD3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3 days ago: "
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/textViewD4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4 days ago: "
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/textViewD5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 days ago: "
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/textViewD6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6 days ago: "
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/textViewM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last week: "
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/textViewYr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last year: "
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/textViewAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All time: "
+        android:textSize="30sp"/>
+
+
+    <!-- Add more views as needed -->
+
+</LinearLayout>

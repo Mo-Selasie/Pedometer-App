@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/strong_blurred_original_background"
+    tools:context=".Profile">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_user_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Profile"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="45sp"
+            app:drawableLeftCompat="@drawable/baseline_directions_walk_white_24" />
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="50dp"
+            android:text="Username"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/user_age"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:text="0 Years"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/user_height"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:text="0 m"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/user_weight"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:text="0 Kg"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/user_bmi"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="50dp"
+            android:text="BMI: 0"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/user_minWeight"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="50dp"
+            android:text="Minimum Healthy Weight: 0"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/user_maxWeight"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="50dp"
+            android:text="Maximum Healthy Weight: 0"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonSetGoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:background="#8033B5E5"
+        android:text="Set Step Goal" />
+
+    <Button
+        android:id="@+id/buttonUpdateProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="#8033B5E5"
+        android:text="Update Profile" />
+
+
+</RelativeLayout>

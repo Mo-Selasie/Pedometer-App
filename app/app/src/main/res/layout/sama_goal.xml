@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/strong_blurred_original_background"
+    tools:context=".Setting_goal">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_hello"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/baseline_directions_walk_white_24"
+            android:text="Hello"
+            android:textColor="@color/white"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_BMI"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:textSize="25sp"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:text="BMI Value: 0"/>
+
+        <TextView
+            android:id="@+id/text_suggest_weight"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:textSize="25sp"
+            android:text="Suggested Weight: 0"/>
+
+        <EditText
+            android:id="@+id/text_goal_weight"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Your Goal Weight"
+            android:inputType="number|numberDecimal"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/text_goal_date"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="How many days do you want"
+            android:inputType="number"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/text_suggest_steps"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="25sp"
+            android:gravity="center_vertical"
+            android:text="Suggested Steps: 0"/>
+
+        <EditText
+            android:id="@+id/text_goal_steps"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Daily Step Goal"
+            android:inputType="number|numberDecimal"
+            android:textSize="25sp" />
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="#8033B5E5"
+            android:textSize="30sp"
+            android:text="Complete"
+            android:id="@+id/buttonComplete"/>
+
+        <TextView
+            android:id="@+id/text_BMI_explain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:focusable="false"
+            android:text="A healthy BMI range is between 18.5 and 24.9, which is indicated in green to represent a normal weight for your height. Red signifies that your BMI is above the normal range, suggesting that you are overweight for your current height and may need to consider weight loss. Conversely, yellow denotes that your BMI is below the normal range, indicating that you are underweight. " />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
